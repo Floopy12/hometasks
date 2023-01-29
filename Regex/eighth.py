@@ -6,7 +6,7 @@ def diagnosis():
     str = 'Ім\'я: Максим Вік: 56 Місто: Київ Діагноз: Грип'
 
     result = list(re.match(pattern, str).group(1,2))
-    print(result[0], result[1])
+    print(f'{result[0]} - {result[1]}')
     
 
 diagnosis()
