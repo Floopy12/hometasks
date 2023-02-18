@@ -9,7 +9,7 @@ info = str.text
 pattern = re.findall(r'"currencyCodeA":840,"currencyCodeB":980,[\w:"]+,"rateBuy":([\d\s.]+)', info)
 
 result = float(sum)/float(pattern[0])
-print(result)
+print(f'Ви отримаете {round(result, 2)}$ по курсу {pattern[0]}')
 
 
 
