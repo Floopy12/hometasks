@@ -67,4 +67,4 @@ rating - {res[3]}
     # get_by_id()      # Информация по id
     # del_staff()      # Удаление сотрудника
     # get_best_staff() # Рейтинг выше 50
-    # add_bonus()      # +20% зп
+    # add_bonus()      # +20% зарплаты
