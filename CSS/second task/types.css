@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(197, 149, 241);
+    color: rgb(241, 118, 61)
+}
+
+div{
+    background-color: rgba(196, 244, 130, 0.615);
+    padding-left: 12% ;
+    padding-bottom: 10%;
+    margin: 5% 27% 0% 27%;
+    border-radius: 19px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+h1{
+    padding-top: 9%;
+    margin-left: 25%; 
+}
