@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(233, 150, 122, 0.541);
+}
+
+div{
+    background-color: rgba(233, 150, 122, 0.848);
+    margin: 5% 32%;
+    padding: 3% 4%;
+    border-radius: 30px; 
+}
+
+img{
+    margin-left: 19%;
+    
+    border-radius: 30px;
+}
+
+h1{
+    margin-left: 34%;
+    color: azure;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+a{
+    padding: 3% 10%;
+    background-color: rgb(235, 102, 58);
+    margin-left: 26%;
+    font-size: 25px;
+    border-radius: 35px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(27, 13, 225);
+}
