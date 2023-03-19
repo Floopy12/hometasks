@@ -1,0 +1,211 @@
+@media all{
+    body{
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+    }
+
+    .photo{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .imges{
+        display: flex;
+        width: 40%;
+        justify-content: flex-start;
+    }
+
+    .first{
+        display: flex;
+        width: 100%;
+    }
+
+    .second{
+        display: flex;
+        width: 60%;        
+    }
+
+    .third{
+        display: flex;
+        width: 60%;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1.5%;
+    }
+
+    .name1{
+        display: flex;
+        width: 98%; 
+        font-size: 30px;
+    }
+
+    .name{
+        display: flex;
+        width: 43%; 
+        color: black;  
+    }
+
+    
+
+    .rating{
+        display: flex;
+
+    }
+
+    .rating-item{
+        color: azure;
+        cursor: pointer;
+        transition: 1s;
+        font-size: 22px;
+        color: rgba(242, 40, 121, 0.914);
+    }
+
+    .rating-item:hover{
+        color: rgb(135, 85, 24);
+    }
+
+    .price1{
+        display: flex;
+        justify-content: flex-end;
+        color: rgb(155, 152, 152);    
+    }
+
+    .sale{
+        display: flex;
+        justify-content: flex-end;
+        color: rgba(222, 20, 101, 0.914);
+    }
+    .ratindg-num{
+        display: flex;
+        font-size: 11px;
+        margin-top: 10px;        
+    }
+
+    .infoprice{
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-end;
+        border-bottom: 1.8px rgb(134, 137, 134) solid;
+    }
+
+    .str{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;       
+    }
+
+    .grn{
+        display: flex;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .pricemain{
+        display: flex;
+        font-weight: 700;
+        font-size: 25px;    
+    }
+
+  
+    .mls{
+        display: flex;
+        justify-content:flex-start;
+        width: 98%;  
+    }
+
+    .avalible{
+        display: flex;
+        justify-content: flex-start; 
+    }
+
+    .imges2{
+        display: flex;
+        gap: 10px;
+    }
+
+    .forst{
+        display: flex;
+        color: green;
+        font-weight: 500;
+    }
+
+    .second{
+        display: flex;
+    }
+
+    .like{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .checkbox{
+        font-weight: 500;
+    }
+
+    .checkbox2 a{
+        color: black;
+    }
+
+    .dost{
+        display: flex;
+        flex-direction: column;
+        width: 98%
+    }
+
+    .car{
+        display: flex;
+        width: 30px;
+        height: 20px;
+    }
+
+    .mag{
+        display: flex;
+        width: 39px;
+        height: 40px;
+    }
+
+    .carinfo{
+        display: flex;
+        align-items: center;
+        gap: 10px;  
+    }
+
+    .maginfo{
+        display: flex;
+        align-items: center;
+    }
+
+    .giv{
+        font-weight: 700;
+    }
+
+    .giw{
+        font-weight: 700;
+    }
+
+    .time{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 64%;
+    }
+
+    .time1{
+        display: flex;
+        width: 66.2%;
+        justify-content: flex-end;
+    }
+    
+}    
+
+@media (max-width: 426px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
