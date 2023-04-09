@@ -263,6 +263,11 @@
 
     }
 
+    .pic_bag{
+        border-radius: 10px;
+        padding-right: 2%;
+    }
+
     a{
         text-decoration: none;
     }
@@ -360,10 +365,5 @@
     
 }
 @media (min-width:1024px){
-    .buyploy{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60%;    
-    }
+
 }

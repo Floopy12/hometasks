@@ -5,7 +5,7 @@
         display: flex;
         background: linear-gradient(180deg, #CED2DB 0%, #7D5B8D 100%);    
         gap: 25px;
-        height: 145vh;
+        height: 110vh;
     }
 
     .left{
@@ -135,6 +135,7 @@
         flex-direction: column;
         align-items: flex-start;
         width: 99%;
+        height: 60%;
     }
 
 
@@ -287,6 +288,7 @@
         display: flex;
         flex-direction: column;
         width: 99%;
+        height: 90%;
     }
 
 
