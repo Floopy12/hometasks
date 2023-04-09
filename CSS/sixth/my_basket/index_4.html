@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preview</title>
+    <title>My Orders</title>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="types_2.css">
+    <link rel="stylesheet" href="types_4.css">
     <link rel="website icon" href="pic/titile.jpg" type = 'jpg'>
+
 </head>
 <body>
     <div class="left">
         <a class = 'main' href="../start_page/index.html"><h1 class="namesite">Figma Shop</h1></a>
         <div class="menu">
             <div class="but1" id = 'qs'>
-                <button class= 'but1' ><img src="../pic/1.png" alt="домик" class="pic1">Товари для дому</button>          
+                <button class= 'str1' ><img src="../pic/1.png" alt="домик" class="pic1">Товари для дому</button>          
             </div>
             <div class="but2" id = 'qs'>
-                <button class="but2"><img src="../pic/2.png" alt="геймпад" class="pic2">Відеоігри</button>
+                <button class="str2"><img src="../pic/2.png" alt="геймпад" class="pic2">Відеоігри</button>
             </div>
             <div class="but3" id = 'qs'>
                 <button class="but3"><img src="../pic/3.png" alt="гантеля" class="pic3">Спорт</button>
@@ -43,7 +44,7 @@
                 <button class="but8"><img src="../pic/8.png" alt="медикамент" class="pic">Ліки</button>
             </div>
             <div class="but9" id = 'qs'>
-                <a href="../my_basket/index_4.html" class = 'link_3'><button class="but9"><img src="../pic/9.png" alt="тележка" class="pic">Мій кошик</button></a>
+                <button class="but9"><img src="../pic/9.png" alt="тележка" class="pic">Мій кошик</button>
             </div>
             <div class="but10" id = 'qs'>
                 <a class = 'link_2'href="../my_orders/index_3.html"><button class="but10"><img src="../pic/10.png" alt="чемодан" class="pic">Мої замовлення</button></a>
@@ -59,38 +60,79 @@
         </div>
     </div>
     <div class="right">
-        <div class="blockploy">
+        <h1 class="header">Мій кошик</h1>
+        <div class="pos_1" id = 'pos'>
             <img src="../pic/ploy.png" alt="" class="ploy">
-            <div class="infoploy">
-                <h2 class="nameploy">PlayStation 5</h2>
-                <h2 class="price"><img src = '../pic/dollar.jpg' class = 'doll'>600 $</h2>
-                <div class="information">
-                    <div class="str1">
-                        <p class="inf1">Виробник:</p>
-                        <p class="ans1">Китай</p>
-                    </div>
-                    <div class="str2">
-                        <p class="inf2" id = 'qwe'>Гарантія:</p>
-                        <p class="ans2" id = 'qwe'>2 Роки</p>
-                    </div>
-                    <div class="str3">
-                        <p class="inf3" id = 'qwe'>ОЗУ:</p>
-                        <p class="ans3" id = 'qwe'>16 GB</p>
-                    </div>
-                    <div class="str4">
-                        <p class="inf4" id = 'qwe'>Рік Випуску:</p>
-                        <p class="ans4" id = 'qwe'>2020</p>
-                    </div>
-                    <div class="butploy">
-                        <button class = 'buyploy'>Додати до кошику<img src="../pic/buyploy.jpg" id="pl"></button>
-                    </div>
-                </div>
+            <h3 class="ploy_name">PlayStation 5</h3>
+
+            <div class="pr">
+                <img src = '../pic/dollar.jpg' class = 'doll'>
+                <h2 class="price_ord">600$</h2>
+            </div>
+
+            <div class = 'bl_select'>
+                <select class="select">
+                    <option value="value0">0</option>
+                    <option value="value1" selected>1</option>
+                    <option value="value2">2</option>
+                    <option value="value3">3</option>
+                    <option value="value4">4</option>
+                    <option value="value5">5</option>
+                </select>
             </div>
         </div>
-        <div class="textploy">
-            <p class="text">
-                Нову приставку можна описати двома словами - поліпшили все! І це 100процентна правда. Було встановлено надшвидкісний накопичувач SSD і система введення-виведення. Головна мета даних нововведень - максимально зменшити час, який витрачався на виконання різного роду операцій. Завантажувальні екрани, передачі файлів, за допомогою нового накопичувача всі подібні дії будуть відбуватися практично миттєво. Також подбали про графічний процесор. Потужність було збільшено практично в 3 рази. Технологія AMD Navi дозволяє підтримувати більш високу роздільну здатність.
-            </p>
+
+        <div class="pos_2" id = 'pos'>
+            <img src="../pic/ploy.png" alt="" class="ploy">
+            <h3 class="ploy_name">PlayStation 5</h3>
+            <div class="pr">
+                <img src = '../pic/dollar.jpg' class = 'doll'>
+                <h2 class="price_ord">600$</h2>
+            </div>
+            <div class = 'bl_select'>
+                <select class="select">
+                    <option value="value0">0</option>
+                    <option value="value1" selected>1</option>
+                    <option value="value2">2</option>
+                    <option value="value3">3</option>
+                    <option value="value4">4</option>
+                    <option value="value5">5</option>
+                </select>
+            </div>
+            
+            
         </div>
+
+        <div class="pos_3" id = 'pos'>
+            <img src="../pic/ploy.png" alt="" class="ploy">
+            <h3 class="ploy_name">PlayStation 5</h3>
+            <div class="pr">
+                <img src = '../pic/dollar.jpg' class = 'doll'>
+                <h2 class="price_ord">600$</h2>
+            </div>
+
+            <div class = 'bl_select'>
+                <select class="select">
+                    <option value="value0">0</option>
+                    <option value="value1" selected>1</option>
+                    <option value="value2">2</option>
+                    <option value="value3">3</option>
+                    <option value="value4">4</option>
+                    <option value="value5">5</option>
+                </select>
+            </div>
+        </div>
+        <div class="_order">
+            <a href="../new_order/index_5.html">
+                <button class = 'but_order'>
+                    Оформити замовлення
+                    <img src="../pic/bag.jpg" class ="pic_bag">
+                </button>
+            </a>
+            
+        </div>
+    </div>
+       
+ 
 </body>
 </html>

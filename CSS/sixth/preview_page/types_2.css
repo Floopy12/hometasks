@@ -5,7 +5,7 @@
         display: flex;
         background: linear-gradient(180deg, #CED2DB 0%, #7D5B8D 100%);    
         gap: 25px;
-        height: 100vw;
+        height: 175vw;
     }
 
     .left{
@@ -27,6 +27,10 @@
         align-items: center;
     }
 
+    .main{
+        text-decoration: none;
+    }
+
     .menu{
         display: flex;
         flex-direction: column;
@@ -36,6 +40,17 @@
         padding: 0% 5% 5% 5%;      
     }
 
+    .link_2{
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .link_3{
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+    }
     
 
     button{
@@ -242,7 +257,7 @@
     .left{
         display: flex;
         flex-direction: column;
-        width: 99%;
+        width: 92%;
     }
 
     .blockploy{
@@ -282,13 +297,17 @@
         width: 90%;
     }
 
+    .butploy{
+        padding-right: 10%;
+    }
+
     #pl{
         display: flex;
         padding: 10px;
     }
 }
 
-@media (min-width: 426px){
+@media (max-width: 426px){
     .namesite{
         display:flex;
         justify-content: center;
